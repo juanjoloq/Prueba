@@ -3,7 +3,7 @@
 ## 1. Clonar el proyecto
 
 ```bash
-git clone git@github.com:juanjoloq/Prueba.git
+git clone https://github.com/juanjoloq/Prueba.git
 ```
 
 ---
@@ -22,8 +22,11 @@ npm install
 ## 3. Crear la base de datos
 
 a. Inicia **XAMPP**, **WAMP** o **Laragon**
+
 b. Abre **phpMyAdmin** o **MySQL Workbench**
+
 c. Crea una base de datos con el nombre que prefieras
+
 d. Ejecuta la siguiente consulta SQL para crear la tabla:
 
 ```sql
@@ -40,7 +43,9 @@ CREATE TABLE messages (
 ## 4. Crear y configurar el archivo `.env`
 
 a. Ve a la carpeta `backend`
+
 b. Crea el archivo `.env` usando uno de los siguientes comandos, según tu sistema operativo:
+
 **si no te funciona ningun comando crea el archivo manual en la carpeta del backend a la misma altura de index.js**
 
 ### Comandos por sistema
